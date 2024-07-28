@@ -1,1 +1,9 @@
 # OUTCAR_composition_checker
+
+This program is for checking the compositions of OUTCAR in the current folder. This program may be useful to check the compositions of materials for generation of machine learning potentical, such as MACE.
+
+# usage
+For instance, your folder have many "OUTCAR_for_mace-***" files, then this program read "POSCAR = " lines of those OUTCARs and listed their compositions and their numbers.
+
+``` % python OUTCAR_composition_checker ```
+
