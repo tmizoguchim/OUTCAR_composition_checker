@@ -7,7 +7,7 @@ For instance, your folder have many "OUTCAR_for_mace-***" files, then this progr
 
 ``` % python OUTCAR_composition_checker ```
 
-Be care that Line-13 of this program must be changed for your "OUTCAR_**" names as below:
+Be care that Line-13 (below) of this program must be changed for your "OUTCAR_**" name. Now, it is "OUTCAR_for_mace".
 
     files = [f for f in os.listdir(folder_path) if f.startswith('OUTCAR_for_mace')]
 
